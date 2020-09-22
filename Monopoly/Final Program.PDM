@@ -1,0 +1,164 @@
+[Root]
+Most Recent Package=Standard Setup Package 1 Monopoly
+
+
+[Package|Standard Setup Package 1 Monopoly|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=G:\Documents\HNC\Monopoly Proj\Final Program\Package
+
+[Package|Standard Setup Package 1 Monopoly|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1 Monopoly|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1 Monopoly|Files Found]
+
+[Package|Standard Setup Package 1 Monopoly|Files Released]
+
+[Package|Standard Setup Package 1 Monopoly|Missing Dependency Information]
+C:\Program Files\Common Files\SYSTEM\ADO\MSADO20.TLB=
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO360.DLL=
+
+[Package|Standard Setup Package 1 Monopoly|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM\RICHTX32.OCX=
+C:\WINDOWS\SYSTEM\TABCTL32.OCX=
+C:\WINDOWS\SYSTEM\Comdlg32.ocx=
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=
+C:\WINDOWS\SYSTEM\MSSTDFMT.DLL=
+
+[Package|Standard Setup Package 1 Monopoly|Files Added]
+G:\Documents\HNC\Monopoly Proj\Final Program\Clasic.mdb=
+G:\Documents\HNC\Monopoly Proj\Final Program\Software.mdb=
+G:\Documents\HNC\Monopoly Proj\Final Program\Counters\cannon.ico=
+G:\Documents\HNC\Monopoly Proj\Final Program\Counters\dog.ico=
+G:\Documents\HNC\Monopoly Proj\Final Program\Counters\horse.ico=
+G:\Documents\HNC\Monopoly Proj\Final Program\Counters\iron.ico=
+G:\Documents\HNC\Monopoly Proj\Final Program\Counters\race_car.ico=
+G:\Documents\HNC\Monopoly Proj\Final Program\Counters\ship.ico=
+G:\Documents\HNC\Monopoly Proj\Final Program\Counters\shoe.ico=
+G:\Documents\HNC\Monopoly Proj\Final Program\Counters\thimble.ico=
+G:\Documents\HNC\Monopoly Proj\Final Program\Counters\top_hat.ico=
+G:\Documents\HNC\Monopoly Proj\Final Program\Counters\wheel.ico=
+
+[Package|Standard Setup Package 1 Monopoly|Files Removed]
+
+[Package|Standard Setup Package 1 Monopoly|Files In Project]
+G:\Documents\HNC\Monopoly Proj\Final Program\Monopoly Game.exe=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+F:\Programing\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO360.DLL=Yes
+C:\WINDOWS\SYSTEM\MSSTDFMT.DLL=Yes
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=Yes
+C:\WINDOWS\SYSTEM\Comdlg32.ocx=Yes
+C:\WINDOWS\SYSTEM\TABCTL32.OCX=Yes
+C:\Program Files\Common Files\SYSTEM\ADO\MSADO20.TLB=Yes
+C:\WINDOWS\SYSTEM\RICHTX32.OCX=Yes
+F:\Programing\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINDOWS\SYSTEM\MSFLXGRD.OCX=Yes
+F:\Programing\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+F:\Programing\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+F:\Programing\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+G:\Documents\HNC\Monopoly Proj\Final Program\Clasic.mdb=Yes
+G:\Documents\HNC\Monopoly Proj\Final Program\Software.mdb=Yes
+G:\Documents\HNC\Monopoly Proj\Final Program\Counters\cannon.ico=Yes
+G:\Documents\HNC\Monopoly Proj\Final Program\Counters\dog.ico=Yes
+G:\Documents\HNC\Monopoly Proj\Final Program\Counters\horse.ico=Yes
+G:\Documents\HNC\Monopoly Proj\Final Program\Counters\iron.ico=Yes
+G:\Documents\HNC\Monopoly Proj\Final Program\Counters\race_car.ico=Yes
+G:\Documents\HNC\Monopoly Proj\Final Program\Counters\ship.ico=Yes
+G:\Documents\HNC\Monopoly Proj\Final Program\Counters\shoe.ico=Yes
+G:\Documents\HNC\Monopoly Proj\Final Program\Counters\thimble.ico=Yes
+G:\Documents\HNC\Monopoly Proj\Final Program\Counters\top_hat.ico=Yes
+G:\Documents\HNC\Monopoly Proj\Final Program\Counters\wheel.ico=Yes
+
+[Package|Standard Setup Package 1 Monopoly|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1 Monopoly|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1 Monopoly|Install Locations]
+G:\Documents\HNC\Monopoly Proj\Final Program\Monopoly Game.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+F:\Programing\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO360.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\Comdlg32.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\TABCTL32.OCX=$(WinSysPath)
+C:\Program Files\Common Files\SYSTEM\ADO\MSADO20.TLB=$(WinSysPath)
+C:\WINDOWS\SYSTEM\RICHTX32.OCX=$(WinSysPath)
+F:\Programing\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSFLXGRD.OCX=$(WinSysPath)
+F:\Programing\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+F:\Programing\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+F:\Programing\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+G:\Documents\HNC\Monopoly Proj\Final Program\Clasic.mdb=$(AppPath)
+G:\Documents\HNC\Monopoly Proj\Final Program\Software.mdb=$(AppPath)
+G:\Documents\HNC\Monopoly Proj\Final Program\Counters\cannon.ico=$(AppPath)\Counters
+G:\Documents\HNC\Monopoly Proj\Final Program\Counters\dog.ico=$(AppPath)\Counters
+G:\Documents\HNC\Monopoly Proj\Final Program\Counters\horse.ico=$(AppPath)\Counters
+G:\Documents\HNC\Monopoly Proj\Final Program\Counters\iron.ico=$(AppPath)\Counters
+G:\Documents\HNC\Monopoly Proj\Final Program\Counters\race_car.ico=$(AppPath)\Counters
+G:\Documents\HNC\Monopoly Proj\Final Program\Counters\ship.ico=$(AppPath)\Counters
+G:\Documents\HNC\Monopoly Proj\Final Program\Counters\shoe.ico=$(AppPath)\Counters
+G:\Documents\HNC\Monopoly Proj\Final Program\Counters\thimble.ico=$(AppPath)\Counters
+G:\Documents\HNC\Monopoly Proj\Final Program\Counters\top_hat.ico=$(AppPath)\Counters
+G:\Documents\HNC\Monopoly Proj\Final Program\Counters\wheel.ico=$(AppPath)\Counters
+
+[Package|Standard Setup Package 1 Monopoly|Configure Shared Files]
+Applicable=Yes
+G:\Documents\HNC\Monopoly Proj\Final Program\Monopoly Game.exe=No
+G:\Documents\HNC\Monopoly Proj\Final Program\Clasic.mdb=No
+G:\Documents\HNC\Monopoly Proj\Final Program\Software.mdb=No
+G:\Documents\HNC\Monopoly Proj\Final Program\Counters\cannon.ico=No
+G:\Documents\HNC\Monopoly Proj\Final Program\Counters\dog.ico=No
+G:\Documents\HNC\Monopoly Proj\Final Program\Counters\horse.ico=No
+G:\Documents\HNC\Monopoly Proj\Final Program\Counters\iron.ico=No
+G:\Documents\HNC\Monopoly Proj\Final Program\Counters\race_car.ico=No
+G:\Documents\HNC\Monopoly Proj\Final Program\Counters\ship.ico=No
+G:\Documents\HNC\Monopoly Proj\Final Program\Counters\shoe.ico=No
+G:\Documents\HNC\Monopoly Proj\Final Program\Counters\thimble.ico=No
+G:\Documents\HNC\Monopoly Proj\Final Program\Counters\top_hat.ico=No
+G:\Documents\HNC\Monopoly Proj\Final Program\Counters\wheel.ico=No
+
+[Package|Standard Setup Package 1 Monopoly|Distribution]
+Type=multi
+Size=1.44 MB
+Title=Davids Monopoly Game Installation
+
+[Package|Standard Setup Package 1 Monopoly|IconGroups]
+Group0=Davids Monopoly
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1 Monopoly|Davids Monopoly]
+Icon1="Monopoly Game.exe"
+Title1=Davids Monopoly
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1 Monopoly|Package]
+PackageFolder=G:\Documents\HNC\Monopoly Proj\Final Program\Package
+ProjectFolder=G:\Documents\HNC\Monopoly Proj\Final Program
+ServerSideCab=
+File1=G:\Documents\HNC\Monopoly Proj\Final Program\Package\setup.exe
+File2=G:\Documents\HNC\Monopoly Proj\Final Program\Package\Setup.Lst
+File3=G:\Documents\HNC\Monopoly Proj\Final Program\Package\Monopo1.CAB
+File4=G:\Documents\HNC\Monopoly Proj\Final Program\Package\Monopo2.CAB
+File5=G:\Documents\HNC\Monopoly Proj\Final Program\Package\Monopo3.CAB
+Handler1=PDWizard.FloppyDplySubWiz
+Handler2=PDWizard.FolderDplySubWiz
+Handler3=PDWizard.WebPostDplySubWiz

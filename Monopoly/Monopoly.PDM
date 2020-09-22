@@ -1,0 +1,235 @@
+[Root]
+Most Recent Package=Standard Setup Package 2
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=N:\Documents and Settings\David\Desktop\Monopoly Package
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+M:\Program Files\Apps\MS Office\Office10\WINWORD.EXE=
+N:\Program Files\Common Files\System\ado\msado20.tlb=
+N:\WINDOWS\system32\msstdfmt.dll=
+N:\Program Files\Common Files\Microsoft Shared\DAO\dao360.dll=
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+N:\WINDOWS\system32\Msflxgrd.ocx=
+N:\WINDOWS\system32\RICHTX32.OCX=
+N:\WINDOWS\system32\TABCTL32.OCX=
+N:\WINDOWS\system32\COMDLG32.OCX=
+N:\WINDOWS\system32\MSCOMCTL.OCX=
+
+[Package|Standard Setup Package 1|Files Added]
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+N:\Documents and Settings\David\Desktop\Monopoly\Monopoly.exe=Yes
+N:\WINDOWS\system32\msvbvm60.dll=Yes
+N:\WINDOWS\system32\oleaut32.dll=Yes
+N:\WINDOWS\system32\olepro32.dll=Yes
+N:\WINDOWS\system32\asycfilt.dll=Yes
+N:\WINDOWS\system32\stdole2.tlb=Yes
+M:\Program Files\Programing\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+N:\Program Files\Common Files\Microsoft Shared\DAO\dao360.dll=Yes
+N:\WINDOWS\system32\msstdfmt.dll=Yes
+N:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+N:\WINDOWS\system32\COMDLG32.OCX=Yes
+N:\WINDOWS\system32\TABCTL32.OCX=Yes
+N:\Program Files\Common Files\System\ado\msado20.tlb=Yes
+N:\WINDOWS\system32\RICHTX32.OCX=Yes
+M:\Program Files\Programing\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+N:\WINDOWS\system32\Msflxgrd.ocx=Yes
+M:\Program Files\Apps\MS Office\Office10\WINWORD.EXE=Yes
+M:\Program Files\Programing\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+M:\Program Files\Programing\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+N:\WINDOWS\system32\VB6STKIT.DLL=Yes
+M:\Program Files\Programing\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+N:\Documents and Settings\David\Desktop\Monopoly\Monopoly.exe=$(AppPath)
+N:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+N:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+N:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+N:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+N:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+M:\Program Files\Programing\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+N:\Program Files\Common Files\Microsoft Shared\DAO\dao360.dll=$(WinSysPath)
+N:\WINDOWS\system32\msstdfmt.dll=$(WinSysPath)
+N:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+N:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+N:\WINDOWS\system32\TABCTL32.OCX=$(WinSysPath)
+N:\Program Files\Common Files\System\ado\msado20.tlb=$(WinSysPath)
+N:\WINDOWS\system32\RICHTX32.OCX=$(WinSysPath)
+M:\Program Files\Programing\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+N:\WINDOWS\system32\Msflxgrd.ocx=$(WinSysPath)
+M:\Program Files\Apps\MS Office\Office10\WINWORD.EXE=$(AppPath)
+M:\Program Files\Programing\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+M:\Program Files\Programing\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+N:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+M:\Program Files\Programing\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+N:\Documents and Settings\David\Desktop\Monopoly\Monopoly.exe=No
+M:\Program Files\Apps\MS Office\Office10\WINWORD.EXE=Yes
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=Monopoly
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=Games
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|Games]
+Icon1=Monopoly.exe
+Title1=Monopoly
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=N:\Documents and Settings\David\Desktop\Monopoly Package
+ProjectFolder=N:\Documents and Settings\David\Desktop\Monopoly
+ServerSideCab=
+File1=N:\Documents and Settings\David\Desktop\Monopoly Package\setup.exe
+File2=N:\Documents and Settings\David\Desktop\Monopoly Package\Setup.Lst
+File3=N:\Documents and Settings\David\Desktop\Monopoly Package\Monopoly.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Standard Setup Package 2|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=N:\Documents and Settings\David\Desktop\Monopoly Package
+
+[Package|Standard Setup Package 2|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 2|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 2|Files Found]
+
+[Package|Standard Setup Package 2|Files Released]
+
+[Package|Standard Setup Package 2|Missing Dependency Information]
+M:\Program Files\Apps\MS Office\Office10\WINWORD.EXE=
+N:\Program Files\Common Files\System\ado\msado20.tlb=
+N:\WINDOWS\system32\msstdfmt.dll=
+N:\Program Files\Common Files\Microsoft Shared\DAO\dao360.dll=
+
+[Package|Standard Setup Package 2|Out-of-Date Dependency Information]
+N:\WINDOWS\system32\Msflxgrd.ocx=
+N:\WINDOWS\system32\RICHTX32.OCX=
+N:\WINDOWS\system32\TABCTL32.OCX=
+N:\WINDOWS\system32\COMDLG32.OCX=
+N:\WINDOWS\system32\MSCOMCTL.OCX=
+
+[Package|Standard Setup Package 2|Files Added]
+
+[Package|Standard Setup Package 2|Files Removed]
+m:\program files\apps\ms office\office10\winword.exe=
+
+[Package|Standard Setup Package 2|Files In Project]
+N:\Documents and Settings\David\Desktop\Monopoly\Monopoly.exe=Yes
+N:\WINDOWS\system32\msvbvm60.dll=Yes
+N:\WINDOWS\system32\oleaut32.dll=Yes
+N:\WINDOWS\system32\olepro32.dll=Yes
+N:\WINDOWS\system32\asycfilt.dll=Yes
+N:\WINDOWS\system32\stdole2.tlb=Yes
+M:\Program Files\Programing\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+N:\Program Files\Common Files\Microsoft Shared\DAO\dao360.dll=Yes
+N:\WINDOWS\system32\msstdfmt.dll=Yes
+N:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+N:\WINDOWS\system32\COMDLG32.OCX=Yes
+N:\WINDOWS\system32\TABCTL32.OCX=Yes
+N:\Program Files\Common Files\System\ado\msado20.tlb=Yes
+N:\WINDOWS\system32\RICHTX32.OCX=Yes
+M:\Program Files\Programing\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+N:\WINDOWS\system32\Msflxgrd.ocx=Yes
+M:\Program Files\Apps\MS Office\Office10\WINWORD.EXE=No
+M:\Program Files\Programing\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+M:\Program Files\Programing\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+N:\WINDOWS\system32\VB6STKIT.DLL=Yes
+M:\Program Files\Programing\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Standard Setup Package 2|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 2|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 2|Install Locations]
+N:\Documents and Settings\David\Desktop\Monopoly\Monopoly.exe=$(AppPath)
+N:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+N:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+N:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+N:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+N:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+M:\Program Files\Programing\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+N:\Program Files\Common Files\Microsoft Shared\DAO\dao360.dll=$(WinSysPath)
+N:\WINDOWS\system32\msstdfmt.dll=$(WinSysPath)
+N:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+N:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+N:\WINDOWS\system32\TABCTL32.OCX=$(WinSysPath)
+N:\Program Files\Common Files\System\ado\msado20.tlb=$(WinSysPath)
+N:\WINDOWS\system32\RICHTX32.OCX=$(WinSysPath)
+M:\Program Files\Programing\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+N:\WINDOWS\system32\Msflxgrd.ocx=$(WinSysPath)
+M:\Program Files\Programing\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+M:\Program Files\Programing\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+N:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+M:\Program Files\Programing\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Standard Setup Package 2|Configure Shared Files]
+Applicable=Yes
+N:\Documents and Settings\David\Desktop\Monopoly\Monopoly.exe=No
+
+[Package|Standard Setup Package 2|Distribution]
+Type=multi
+Size=1.44 MB
+Title=Monopoly
+
+[Package|Standard Setup Package 2|IconGroups]
+Group0=Games
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 2|Games]
+Icon1=Monopoly.exe
+Title1=Monopoly
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 2|Package]
+PackageFolder=N:\Documents and Settings\David\Desktop\Monopoly Package
+ProjectFolder=N:\Documents and Settings\David\Desktop\Monopoly
+ServerSideCab=
+File1=N:\Documents and Settings\David\Desktop\Monopoly Package\setup.exe
+File2=N:\Documents and Settings\David\Desktop\Monopoly Package\Setup.Lst
+File3=N:\Documents and Settings\David\Desktop\Monopoly Package\Monopo1.CAB
+File4=N:\Documents and Settings\David\Desktop\Monopoly Package\Monopo2.CAB
+Handler1=PDWizard.FloppyDplySubWiz
+Handler2=PDWizard.FolderDplySubWiz
+Handler3=PDWizard.WebPostDplySubWiz
